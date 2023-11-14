@@ -6,21 +6,22 @@
     margin: 0;
 }
 
-/* body {
+body {
     font-family: Arial, sans-serif;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-} */
+    background-image: linear-gradient(45deg, rgb(0, 204, 255), rgb(0, 153, 255));
+}
 
 header {
     display: flex;
     position: relative;
     border: 2px solid #000000;
     border-width: auto;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 6px;
     text-align: center;
-    width: 100%;
+    align-items: auto;
+    background-color: white;
+    width: 99%;
 }
 
 h1 {
@@ -28,6 +29,7 @@ h1 {
 }
 
 .container {
+    transform: translate(-50%, -50%);
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -44,20 +46,21 @@ footer {
     display: flex;
     border: 2px solid #000000;
     border-width: auto;
-    padding: 10px;
+    padding: 6px;
     text-align: center;
     position: absolute;
+    border-radius: 10px;
     bottom: 0;
-    width: 100%;
+    width: 99%;
     max-height: 50vh;
-
+    align-items: flex-end;
+    background-color: white;
 }
 
 .parceiro {
     position: relative;
     display: flex;
     padding: 0%;
-    border: 2px solid #000000;
     border-width: auto;
     padding: 20px;
     text-align: center;
@@ -68,14 +71,12 @@ footer {
     width: 300px;
     height: 12vh;
     display: flex;
-
     height: auto;
 }
 
 .voltar {
     width: 8vh;
     height: 10vh;
-
     text-align: left;
 }
 
@@ -87,7 +88,6 @@ footer {
 
 
 
-th,
 td {
     font-size: 20px;
     border: 2px solid black;
@@ -101,27 +101,28 @@ td {
 }
 
 .profile {
-    height: 20vh;
-    margin-top: 200px;
-    max-width: 600px;
-    flex: 1;
-    margin: 0 auto;
-    margin-top: 80px;
-    border: 2px solid black;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid #000000;
 }
+
 .profile img {
     max-width: 150px;
     border-radius: 50%;
     margin-right: 20px;
-    border: 2px solid black; /* Adiciona borda à imagem */
+    border: 2px solid black;
+    /* Adiciona borda à imagem */
 }
+
 .user-info {
-    flex-grow: 1;
-    border: 2px solid black; /* Adiciona borda às informações do usuário */
-    padding: 10px; /* Espaçamento interno para as informações */
+    border: #000000;
+    position: sticky
 }
 
 body {
@@ -132,6 +133,7 @@ body {
     height: 100vh;
     margin: 0;
 }
+
 
 .card {
     margin-top: 20px;
